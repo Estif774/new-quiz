@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(100, 8, 20);
+    color: rgb(175, 122, 122);
+    margin: 12px;
+    padding: 9px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: whitesmoke;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: blue;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: royalblue;
+}
+h4{
+    font-family:italian;
+    color: white;
+}
+table{
+    border: 5px solid;
+    border-width: 15px;
+    border-radius: 15px;
+    padding: 20px;
+  
+
+}
+h1{
+    animation: slide-in 5s ease-in-out 1s infinite alternate ;
+}
+@keyframes slide-in{
+    0%{
+        background-color: rgb(236, 243, 236);
+        transform-style: preserve-8d;
+    }
+    50%{
+        background-color:blue (201, 173, 173);
+        transform-style: preserve-3d;
+    }
+    100%{
+        background-color:white (46, 7, 46);
+        transform-style: preserve-3d;
+    }
+}
+
+.list{
+    background-color:white (165, 42, 118);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+@media (max-width:600px){
+    body {
+        background-color: whitesmoke;
+        color: pink;
+    }
+}
